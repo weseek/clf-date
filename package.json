@@ -1,0 +1,23 @@
+{
+  "name": "clf-date",
+  "version": "0.0.1",
+  "description": "Return the current date in CLF format",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clf-date",
+    "clf",
+    "common-log-format",
+    "common",
+    "log",
+    "format"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lludol/clf-date.git"
+  },
+  "author": "lludol",
+  "license": "MIT"
+}
