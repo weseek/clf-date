@@ -2,6 +2,20 @@
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
+## Example
+
+```js
+const clfDate = require('clf-date');
+
+// Without parameter it will use the current time.
+console.log(clfDate());
+
+// With a Date in parameter.
+const date = new Date();
+date.setFullYear(2042);
+console.log(clfDate(date);
+```
+
 ## Contributing
 
 Don't hesitate to [create a pull request](https://github.com/lludol/clf-date/pulls) to improve the project.
