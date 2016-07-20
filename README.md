@@ -2,7 +2,19 @@
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
-## Example
+## Executable
+
+```bash
+npm install -g clf-date
+
+# Without parameter
+clf-date
+
+# With parameter (everything which works with Date.parse)
+clf-date 2042
+```
+
+## Node.js library
 
 ```js
 const clfDate = require('clf-date');

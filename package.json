@@ -1,8 +1,11 @@
 {
   "name": "clf-date",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Return the current date in CLF format",
   "main": "./out/main.js",
+  "bin": {
+    "clf-date": "./bin/clf-date.js"
+  },
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir out",
     "prepublish": "npm run build",
