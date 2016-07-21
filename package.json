@@ -1,6 +1,6 @@
 {
   "name": "clf-date",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Return the current date in CLF format",
   "main": "./out/main.js",
   "bin": {
@@ -8,8 +8,9 @@
   },
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir out",
+    "cover": "istanbul cover _mocha",
     "prepublish": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js --compilers js:babel-core/register"
   },
   "keywords": [
     "clf-date",
@@ -27,6 +28,9 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-es2015": "^6.9.0"
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3"
   }
 }

@@ -1,5 +1,7 @@
 # clf-date
 
+[![Build Status](https://travis-ci.org/lludol/clf-date.svg?branch=master)](https://travis-ci.org/lludol/clf-date)
+
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
 ## Executable
