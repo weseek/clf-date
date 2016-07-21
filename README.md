@@ -2,6 +2,7 @@
 [![dev-dependencies status](https://david-dm.org/lludol/clf-date/dev-status.svg)](https://david-dm.org/lludol/clf-date#info=devDependencies)
 [![Build Status](https://travis-ci.org/lludol/clf-date.svg?branch=master)](https://travis-ci.org/lludol/clf-date)
 [![Coverage Status](https://coveralls.io/repos/github/lludol/clf-date/badge.svg?branch=master)](https://coveralls.io/github/lludol/clf-date?branch=master)
+[![npm version](https://badge.fury.io/js/clf-date.svg)](https://badge.fury.io/js/clf-date)
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
