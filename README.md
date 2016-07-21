@@ -20,6 +20,10 @@ clf-date 2042
 
 ## Node.js library
 
+```bash
+npm install clf-date
+```
+
 ```js
 const clfDate = require('clf-date');
 
@@ -38,7 +42,7 @@ Don't hesitate to [create a pull request](https://github.com/lludol/clf-date/pul
 
 ## Bugs
 
-If you find a bug or want a new feature, dont'hesitate to [create an issue](https://github.com/js-slave/js-slave-manager/issues).
+If you find a bug or want a new feature, dont'hesitate to [create an issue](https://github.com/lludol/clf-date/issues).
 
 ## License
 
