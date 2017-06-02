@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const clfDate	= require('../out/main.js');
+
 const argv		= process.argv;
 
 if (argv.length > 2) {

@@ -25,14 +25,14 @@ function getCLFOffset(date) {
 	return `${op}${number}`;
 }
 
-module.exports = function(now = new Date()) {
+module.exports = function (now = new Date()) {
 	if (!(now instanceof Date)) {
 		throw new Error('clf-date: invalid parameter');
 	}
 
 	const MONTHS = [
 		'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-		'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+		'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
 	];
 
 	const day		= numberToString(now.getUTCDate());
