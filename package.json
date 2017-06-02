@@ -1,6 +1,6 @@
 {
   "name": "clf-date",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Return the current date in CLF format",
   "main": "./out/main.js",
   "bin": {
