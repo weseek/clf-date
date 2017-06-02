@@ -6,12 +6,19 @@
   "bin": {
     "clf-date": "./bin/clf-date.js"
   },
+  "files": [
+    "bin/clf-date.js",
+    "out/main.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "build": "babel src --presets babel-preset-es2015 --out-dir out",
+    "build": "babel src --presets babel-preset-latest --no-comments --compact --out-dir out",
     "cover": "istanbul cover _mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "prepublish": "npm run build",
-    "test": "mocha test/index.js --compilers js:babel-core/register"
+    "test": "mocha test/index.js --compilers js:babel-core/register",
+    "lint": "eslint ."
   },
   "keywords": [
     "clf-date",
@@ -29,11 +36,13 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",
-    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-latest": "^6.24.1",
     "chai": "^4.0.1",
     "coveralls": "^2.11.11",
+    "eslint": "^3.19.0",
+    "eslint-config-lludol": "^0.1.6",
     "istanbul": "^0.4.4",
-    "mocha": "^3.2.0",
+    "mocha": "^3.4.0",
     "mocha-lcov-reporter": "^1.2.0"
   }
 }
