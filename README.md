@@ -2,6 +2,8 @@
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
 
+The purpose of this package is to fix the bug ([lludol/clf-date#7](https://github.com/lludol/clf-date/pull/7)).
+
 ## Executable
 
 ```bash
