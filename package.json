@@ -1,6 +1,6 @@
 {
-  "name": "clf-date",
-  "version": "0.1.0",
+  "name": "@weseek/clf-date",
+  "version": "0.2.0",
   "description": "Return the current date in CLF format",
   "main": "./out/main.js",
   "bin": {
@@ -30,9 +30,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lludol/clf-date.git"
+    "url": "https://github.com/weseek/clf-date"
   },
-  "author": "lludol",
+  "author": "Ryu Sato <ryu@weseek.co.jp>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",
