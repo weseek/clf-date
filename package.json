@@ -1,6 +1,6 @@
 {
   "name": "@weseek/clf-date",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Return the current date in CLF format",
   "main": "./out/main.js",
   "bin": {
