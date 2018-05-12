@@ -7,7 +7,7 @@ The purpose of this package is to fix the bug ([lludol/clf-date#7](https://githu
 ## Executable
 
 ```bash
-npm install -g clf-date # or yarn global add clf-date
+npm install -g @weseek/clf-date # or yarn global add clf-date
 
 # Without parameter
 clf-date
@@ -19,19 +19,19 @@ clf-date 2042
 ## Node.js library
 
 ```bash
-npm install clf-date # or yarn add clf-date
+npm install @weseek/clf-date # or yarn add clf-date
 ```
 
 ```js
-const clfDate = require('clf-date');
+const clfDate = require('@weseek/clf-date');
 
 // Without parameter it will use the current time.
-console.log(clfDate());
+console.log(clfDate());     # Ex) Output log "12/May/2018:19:29:27 +0900"
 
 // With a Date in parameter.
 const date = new Date();
 date.setFullYear(2042);
-console.log(clfDate(date);
+console.log(clfDate(date)); # Ex) Output log "12/May/2042:19:29:27 +0900"
 ```
 
 ## License
