@@ -1,3 +1,5 @@
+Because a bug ([lludol/clf-date#7](https://github.com/lludol/clf-date/pull/7)) in 'lludol/clf-date' has been fixed, this package will be removed soon.
+
 # @weseek/clf-date
 
 Return the current date in CLF format: %d/%b/%Y:%H:%M:%S %z.
